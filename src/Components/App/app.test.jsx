@@ -1,9 +1,9 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import app from 'app';
+import App from '../App';
 
-describe('app', () => {
+describe('App', () => {
 		it('renders without crashing', () => {
-				mount(<app />);
+				mount(<App />);
 		});
 });
