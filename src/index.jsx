@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { AppContainer } from "react-hot-loader";
 import App from "./Components/App";
-import icon from "my-logo.png"
 
 ReactDOM.render(
   <AppContainer>
