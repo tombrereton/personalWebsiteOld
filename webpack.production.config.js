@@ -28,7 +28,10 @@ module.exports = {
     loaders
   },
   plugins: [
-    new CopyWebpackPlugin([{from: '_redirects'}]),
+    new CopyWebpackPlugin([
+      {from: '_redirects'},
+      {from: 'src/favicon.ico'}
+    ]),
     new WebpackCleanupPlugin(),
     new webpack.DefinePlugin({
       'process.env': {
